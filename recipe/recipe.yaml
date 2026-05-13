@@ -25,6 +25,7 @@ requirements:
     - python >=${{ python_min }}
     - lightkube-models >=1.15.12.0
     - httpx >=0.28.1,<1.0.0
+    - httpx-ws
     - pyyaml
 
 tests:
