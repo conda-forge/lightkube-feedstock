@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.21.0"
+  version: "1.0.0"
 
 package:
   name: lightkube
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/l/lightkube/lightkube-${{ version }}.tar.gz
-  sha256: 720910200de4bd88e0d7b5d2edfb45a4f6be292798b8776d7b551ef5a5ccdc15
+  sha256: 28fcdb3acce2ffcd3fa6b149cdf43186a4a6a9ce1c43c0e3c6bbc4575c478570
 
 build:
   number: 0
