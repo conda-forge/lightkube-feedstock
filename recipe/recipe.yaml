@@ -24,8 +24,10 @@ requirements:
   run:
     - python >=${{ python_min }}
     - lightkube-models >=1.15.12.0
-    - httpx >=0.28.1,<1.0.0
-    - httpx-ws
+    - httpx2 >=0.28.1
+    - h2 >=3,<5
+    - wsproto >=1.2
+    - msgspec >=0.18
     - pyyaml
 
 tests:
